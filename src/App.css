@@ -1,0 +1,90 @@
+body {
+  margin: 20px;
+  background-attachment: fixed;
+  background-image: linear-gradient(violet,red , darkmagenta);
+ 
+  font-family: 'Poppins', sans-serif;
+}
+
+.active {
+  color: red;
+}
+
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px black;
+}
+
+table {
+  margin-left: calc(10em / 2);
+  padding: 10px;
+  background-color: aquamarine;
+  box-shadow: 5px 5px 8px black;
+}
+
+th,
+td {
+  padding: 0.5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: 22px;
+}
+
+h1 {
+  text-shadow: 5px 5px 8px black;
+  color: white;
+}
+
+.addStudent {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5em;
+}
+button {
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 5px 5px 8px black;
+  font-family: 'Lobster', cursive;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+
+}
+
+.thead {
+  color: blue;
+  font-weight: bolder;
+}
+
+.inputs {
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+input {
+  width: 30em;
+  height: 1em;
+  padding: 1em;
+  border: 3px solid aquamarine;
+  background-color: transparent;
+  border-radius: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 1.2em;
+}
